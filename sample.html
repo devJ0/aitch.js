@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aitch.js</title>
+    <script src="aitch.js"></script>
+</head>
+<body>
+    <script>
+        // 단축키 생성
+        const myShortcut = new aitch({
+            name: "MyShortcut",
+            description: "This is my custom shortcut",
+            keys: ["shift", "m"],
+            func: () => {console.log('success!')}
+        });
+    </script>
+</body>
+</html>
